@@ -1,0 +1,82 @@
+/****** RESET ******/
+
+* {
+	box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+button {
+	background: none;
+	border: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+li {
+	list-style-type: none;
+}
+
+/****** Specific ******/
+
+.wrapper {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f2f2f2;
+	font-size: 1.6rem;
+}
+
+nav {
+	margin: auto;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	width: 25.6rem;
+	padding: 0.4rem 1.6rem 0 1.6rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	color: rgba(0,0,0,.6);
+	font-size: 1.4rem;
+}
+
+nav ul {
+	line-height: 2.4rem;
+}
+
+ul li {
+	margin: 1rem 0.8rem 1rem 0;
+}
+
+li button {
+	display: flex;
+	align-items: center;
+	border-radius: 1rem;
+	padding: 0.8rem 2rem;
+	width: 100%;
+}
+
+li button i {
+	margin-right: 3.2rem;
+	margin-left: -1.3rem;
+}
+
+button:hover {
+	background-color: #f2f2f2;
+}
+
+button:focus {
+	background-color: rgba(98,0,238,.87);
+}
+
